@@ -1,0 +1,12 @@
+-	ORG	1010
+L1	JMP	L1
+-    	ORG	$2000
+-    	adda.w	(a0),a1	
+-    	exg 	d1,d2
+L2	unlk	A7
+D1	DC.w	'abcd'
+MAX	EQU	1000
+-	STOP 	#$1234
+D2	DC.b	10,20,30,40,50,60
+-	nop	-
+-    	END	$1000

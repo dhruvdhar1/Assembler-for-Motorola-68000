@@ -1,0 +1,4 @@
+Data Register Direct                  Dn
+Address Register Direct               An
+Address Indirect                      (addr)
+Address Register Indirect             (An)
